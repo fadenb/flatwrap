@@ -318,6 +318,12 @@ cmd_help() {
 }
 
 main() {
+  # If no arguments are provided, show help to provide a friendly default
+  if [ "${1:-}" = "" ]; then
+    cmd_help
+    return 0
+  fi
+
   case "${1:-}" in
     install)   shift; cmd_install "$@";;
     uninstall) shift; cmd_uninstall "$@";;
