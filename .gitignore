@@ -1,0 +1,15 @@
+# Ignore local test helpers and temporary bins used during development
+/.test-bin/
+
+# Editor and OS junk
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
+
+# Generic caches, logs and temp files
+.cache/
+*.log
+*.pid
+tmp*
