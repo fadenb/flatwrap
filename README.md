@@ -1,5 +1,7 @@
 # flatwrap
 
+![flatwrap logo](flatwrap_logo.png)
+
 **Automatic executable wrappers for Flatpak applications**
 
 flatwrap creates convenient command-line shortcuts for your Flatpak apps, making them as easy to launch as native binaries. No more typing `flatpak run com.example.App` — just type `app` instead.
